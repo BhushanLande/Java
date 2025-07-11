@@ -1,3 +1,5 @@
+package javaPrograms;
+
 import java.util.*;
 
 public class JenericsTwo {

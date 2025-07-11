@@ -1,3 +1,5 @@
+package javaPrograms;
+
 public class Abc implements Runnable{
     int sum=0;
     @Override

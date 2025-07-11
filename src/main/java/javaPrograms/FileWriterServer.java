@@ -1,3 +1,5 @@
+package javaPrograms;
+
 import java.io.*;
 import java.net.*;
 
@@ -5,7 +7,7 @@ public class FileWriterServer {
 
     public static void main(String[] args) throws IOException {
         int port = 5000; // You can change the port
-        String outputFile = "C:\\Users\\Bhushan lande\\IdeaProjects\\Practice1\\src\\main\\java\\received_file.txt";
+        String outputFile = "C:\\Users\\Bhushan lande\\IdeaProjects\\Practice1\\src\\main\\java\\javaPrograms\\received_file.txt";
 
         ServerSocket serverSocket = new ServerSocket(port);
         System.out.println("[SERVER] Listening on port " + port + "...");

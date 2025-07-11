@@ -1,3 +1,5 @@
+package javaPrograms;
+
 public class ThreadLife {
     public static void main(String [] args){
         MyThread myThread = new MyThread();

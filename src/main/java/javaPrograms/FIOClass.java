@@ -1,3 +1,5 @@
+package javaPrograms;
+
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -6,7 +8,7 @@ public class FIOClass {
     public static void main(String [] args) throws IOException {
 
         // To write and read file using buffer reader and writes
-        Path filePath2 = Paths.get(System.getProperty("user.home"), File.separator+"IdeaProjects"+File.separator+"Practice1"+File.separator+"src"+File.separator+"main"+File.separator+"java"+File.separator, "newq.txt");
+        Path filePath2 = Paths.get(System.getProperty("user.home"), File.separator+"IdeaProjects"+File.separator+"Practice1"+File.separator+"src"+File.separator+"main"+File.separator+"java"+File.separator, "javaPrograms/newq.txt");
         File file = filePath2.toFile();
 //        FileWriter br2 = new FileWriter(file, true);
         BufferedWriter br2 = new BufferedWriter(new FileWriter(file, true));

@@ -1,3 +1,5 @@
+package javaPrograms;
+
 public class MyThread implements Runnable {
     @Override
     public void run() {

@@ -1,3 +1,5 @@
+package javaPrograms;
+
 import java.util.Scanner;
 import java.util.concurrent.*;
 

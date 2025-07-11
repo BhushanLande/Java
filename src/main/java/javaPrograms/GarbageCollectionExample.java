@@ -1,3 +1,4 @@
+package javaPrograms;
 
 public class GarbageCollectionExample {
     public static void main(String[] args) {
